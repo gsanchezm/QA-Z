@@ -6,18 +6,15 @@
         <classes>
             <class name="ui.runner.TestRunner"/>
         </classes>
-    </test><!-- Test -->
-    <test name="Run API suite">
+    </test>
+   <!-- <test name="Run API suite">
         <classes>
             <class name="api.runner.TestRunner"/>
         </classes>
-    </test><!-- Test -->
+    </test>
+    <test name="Run Mobile suite">
+        <classes>
+            <class name="mobile.runner.TestRunner"/>
+        </classes>
+    </test>-->
 </suite>
-<!--
-<suite name="Mobile Suite">
-<test name="Run Mobile suite">
-    <classes>
-        <class name="mobile.runner.TestRunner"/>
-    </classes>
-</test>&lt;!&ndash; Test &ndash;&gt;
-</suite>-->
