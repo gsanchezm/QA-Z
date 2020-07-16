@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Suite">
+    <test name="Run Chrome on Grid Server">
+        <parameter name="browser" value="CHROME"></parameter>
+        <classes>
+            <class name="ui.runner.TestRunner"/>
+        </classes>
+    </test><!-- Test -->
+    <test name="Run API suite">
+        <classes>
+            <class name="api.runner.TestRunner"/>
+        </classes>
+    </test><!-- Test -->
+</suite>
+<!--
+<suite name="Mobile Suite">
+<test name="Run Mobile suite">
+    <classes>
+        <class name="mobile.runner.TestRunner"/>
+    </classes>
+</test>&lt;!&ndash; Test &ndash;&gt;
+</suite>-->
